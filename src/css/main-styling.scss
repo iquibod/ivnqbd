@@ -128,8 +128,12 @@ header {
     HERO
 ========================================= */
 
-.hero {
-    padding: 130px 0 110px;
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 0 110px;
+    height: 100vh;
 }
 
 .hero-grid {
@@ -167,11 +171,13 @@ header {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 13px 20px;
+    padding: 15px 20px;
     border-radius: 0;
     font-size: 14px;
     font-weight: 700;
     transition: 0.2s ease;
+    width: 100%;
+    max-width: 250px;
 }
 
 .button-primary {
@@ -195,7 +201,7 @@ header {
 .hero-card {
     padding: 35px;
     background: #f6f6f6;
-    border-radius: 20px;
+    border-radius: 0px;
 }
 
 .hero-card-label {
@@ -258,7 +264,7 @@ header {
     background: #fff;
     padding: 25px;
     border: 1px solid #eaeaea;
-    border-radius: 12px;
+    border-radius: 0px;
 }
 
 .highlight strong {
@@ -286,7 +292,7 @@ header {
 .skill-card {
     padding: 28px;
     border: 1px solid #e7e7e7;
-    border-radius: 14px;
+    border-radius: 0px;
     transition: 0.2s ease;
 }
 
@@ -323,7 +329,7 @@ header {
 .project {
     background: #fff;
     border: 1px solid #e8e8e8;
-    border-radius: 16px;
+    border-radius: 0;
     overflow: hidden;
     transition: 0.2s ease;
 }
