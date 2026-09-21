@@ -1,2 +1,0 @@
-# ivnqbd
-My Portofolio
